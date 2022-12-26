@@ -62,7 +62,7 @@ const handleSubmit = async (e) => {
   const messageDiv = document.getElementById(uniqueId);
   loader(messageDiv);
   //fetch data from openAi server
-  const response = await fetch("https://open-ai-qh9e.onrender.com", {
+  const response = await fetch("https://open-ai-ia7z.onrender.com", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
